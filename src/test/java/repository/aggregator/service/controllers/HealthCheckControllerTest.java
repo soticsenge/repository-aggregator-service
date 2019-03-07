@@ -1,4 +1,4 @@
-package repository.aggregator.service;
+package repository.aggregator.service.controllers;
 
 import io.micronaut.context.ApplicationContext;
 import io.micronaut.context.env.PropertySource;

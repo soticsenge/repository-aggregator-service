@@ -162,7 +162,7 @@
     <micronaut.version>1.0.4</micronaut.version>
     <exec.mainClass>repository.aggregator.service.Application</exec.mainClass>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <jdk.version>1.9</jdk.version>
+    <jdk.version>11</jdk.version>
   </properties>
 </project>
 

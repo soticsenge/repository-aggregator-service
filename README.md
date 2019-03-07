@@ -1,4 +1,4 @@
-# github-api-connector
+# repository-aggregator-service
 Aggregates repos from other 2 service
 
 

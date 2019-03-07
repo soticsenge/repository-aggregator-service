@@ -2,4 +2,4 @@ micronaut:
     application:
         name: repository-aggregator-service
     server:
-        port: 8083
+        port: 8082
