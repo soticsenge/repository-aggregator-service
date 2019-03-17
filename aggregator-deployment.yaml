@@ -1,0 +1,17 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: aggregator-deployment
+spec:
+  replicas: 2
+  template:
+    metadata:
+      labels:
+        app: aggregator
+    spec:
+      containers:
+      - name: aggregator-pod
+        image: soticsenge/aggregator:latest
+        imagePullPolicy: "Always"
+        ports:
+        - containerPort: 8082

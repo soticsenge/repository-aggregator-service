@@ -1,5 +1,9 @@
 micronaut:
-    application:
-        name: repository-aggregator-service
-    server:
-        port: 8082
+  application:
+    name: repository-aggregator-service
+  endpoints:
+    all:
+      enabled: true
+      sensitive: false
+  server:
+    port: 8082
